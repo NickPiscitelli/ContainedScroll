@@ -12,8 +12,9 @@ __Most__ of the documentation is the same, except for one new option that was ad
 to control the scale of the scroll rail.
 
 scrollSizeRatio: Number //Default .8
+
 	- The ratio of the rail size to
-	the content. <1 = Smaller
+	the content. __<1 = Smaller__
 
 Since a lot of the functionality was not needed and bandwidth was a
 concern, certain __features__ have been removed.
@@ -29,4 +30,5 @@ __Data Keys__: All data keys had the string "perfect-scrollbar"
 replaced with "contained-scroll"
 
 __Init Method__: Init Method renamed to containedScroll.
+
 $(ele).containedScroll({ options: 1 });
