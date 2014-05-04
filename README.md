@@ -34,7 +34,7 @@ __Init Method__: Init Method renamed to containedScroll.
     
     <div class="dropDownContain">
         <div class="dropDown">
-             <div class="itemContain">
+             <div class="contain">
                  <!-- Content to Scroll -->
              </div>
         </div>
