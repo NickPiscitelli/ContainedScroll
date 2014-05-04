@@ -29,4 +29,18 @@ __Data Keys__: All data keys had the string "perfect-scrollbar"
 replaced with "contained-scroll"
 
 __Init Method__: Init Method renamed to containedScroll.
-$(ele).containedScroll({ options: 1 });
+    // Initialize
+    $(ele).containedScroll({ options: 1 });
+    
+    <div class="dropDownContain">
+        <div class="dropDown">
+             <div class="itemContain">
+                 <!-- Content to Scroll -->
+             </div>
+        </div>
+        <div class="ps-ycontain">
+             <div class="ps-scrollbar-y-rail">
+                   <div class="ps-scrollbar-y"></div>
+             </div>
+         </div>
+    </div>
